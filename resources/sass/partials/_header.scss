@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: $text_color;
+                font-size: 18px;
+                display: inline-block;
+                padding: 15px;
+
+                &:hover, &.active {
+                    background-color: $main_color;
+                }
+            }
+        }
+    }
+}
